@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>PollyRateLimiter</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Swevo</Authors>
+    <Description>Convenience extension methods for Polly v8 resilience pipelines: AddFixedWindowRateLimiter, AddSlidingWindowRateLimiter, and AddTokenBucketRateLimiter. Complements Polly's built-in AddConcurrencyLimiter to cover all four System.Threading.RateLimiting strategies.</Description>
+    <PackageTags>polly;dotnet;resilience;rate-limiting;ratelimiter;csharp;nuget</PackageTags>
+    <PackageProjectUrl>https://github.com/Swevo/PollyRateLimiter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Swevo/PollyRateLimiter</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.*" PrivateAssets="All" />
+    <PackageReference Include="Polly" Version="8.*" />
+    <PackageReference Include="Polly.RateLimiting" Version="8.7.0" />
+    <PackageReference Include="System.Threading.RateLimiting" Version="8.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

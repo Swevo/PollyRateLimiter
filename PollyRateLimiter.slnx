@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PollyRateLimiter.Tests/PollyRateLimiter.Tests.csproj" />
+    <Project Path="src/PollyRateLimiter/PollyRateLimiter.csproj" />
+  </Folder>
+</Solution>

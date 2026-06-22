@@ -1,21 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>PollyRateLimiter</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Swevo</Authors>
+    <Authors>Justin Bannister</Authors>
     <Description>Convenience extension methods for Polly v8 resilience pipelines: AddFixedWindowRateLimiter, AddSlidingWindowRateLimiter, and AddTokenBucketRateLimiter. Complements Polly's built-in AddConcurrencyLimiter to cover all four System.Threading.RateLimiting strategies.</Description>
-    <PackageTags>polly;dotnet;resilience;rate-limiting;ratelimiter;csharp;nuget</PackageTags>
+    <PackageTags>polly;resilience;rate-limiting;ratelimiter;fixed-window;sliding-window;token-bucket;throttle;dotnet;aspnetcore;system-threading-ratelimiting</PackageTags>
+    <Title>PollyRateLimiter — Fixed window, sliding window and token bucket for Polly v8</Title>
+    <PackageSummary>AddFixedWindowRateLimiter, AddSlidingWindowRateLimiter, and AddTokenBucketRateLimiter for Polly v8 ResiliencePipelineBuilder — filling the gap left by the built-in AddConcurrencyLimiter.</PackageSummary>
+    <PackageReleaseNotes>1.0.1: Added net9.0 target; fixed Authors field; added XML IntelliSense documentation; improved discoverability tags; added Copyright.</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/Swevo/PollyRateLimiter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Swevo/PollyRateLimiter</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
+    <Copyright>Copyright (c) 2025 Justin Bannister</Copyright>
 
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>

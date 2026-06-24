@@ -90,6 +90,9 @@ If PollyRateLimiter simplifies your rate limiting setup, consider supporting the
 
 > 💼 **Need .NET resilience help?** Visit [solidqualitysolutions.com](https://solidqualitysolutions.com/) for consulting and architecture services.
 
+| [PollyMailKit](https://github.com/Swevo/PollyMailKit) | MailKit SMTP email client |
+| [PollyAzureQueueStorage](https://github.com/Swevo/PollyAzureQueueStorage) | Azure Queue Storage QueueClient |
+| [PollyHangfire](https://github.com/Swevo/PollyHangfire) | Hangfire IBackgroundJobClient |
 ## License
 
 MIT

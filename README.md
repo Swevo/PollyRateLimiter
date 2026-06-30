@@ -1,6 +1,7 @@
 # PollyRateLimiter
 
-[![NuGet](https://img.shields.io/nuget/v/PollyRateLimiter.svg)](https://www.nuget.org/packages/PollyRateLimiter/)
+[![NuGet](https://img.shields.io/nuget/v/PollyRateLimiter
+[![NuGet Downloads](https://img.shields.io/nuget/dt/PollyRateLimiter.svg)](https://www.nuget.org/packages/PollyRateLimiter).svg)](https://www.nuget.org/packages/PollyRateLimiter/)
 [![Build](https://github.com/Swevo/PollyRateLimiter/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyRateLimiter/actions/workflows/build.yml)
 
 Convenience extension methods for **Polly v8** resilience pipelines.

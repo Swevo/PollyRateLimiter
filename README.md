@@ -4,6 +4,7 @@
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyRateLimiter.svg)](https://www.nuget.org/packages/PollyRateLimiter)
 [![Build](https://github.com/Swevo/PollyRateLimiter/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyRateLimiter/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET 10 Ready](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](#)
 
 Convenience extension methods for **Polly v8** resilience pipelines.
 
